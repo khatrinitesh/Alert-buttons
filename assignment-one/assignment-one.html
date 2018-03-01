@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Repository</title>
+	<!-- <link rel="stylesheet" href="css/font-awesome.css"> -->
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<button class="btn btn_primary">Primary</button>
+	<button class="btn btn_success">Success</button>
+	<button class="btn btn_info">Info</button>
+	<button class="btn btn_warning">Warning</button>
+	<button class="btn btn_danger">Danger</button>
+	<script type='text/javascript' src='js/jquery-1.12.0.min.js'></script>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$(".custom_link li a").click(function(){
+				$(".custom_link li a").removeClass('active');
+				$(this).addClass('active');
+			});
+		});
+	</script>
+</body>
+</html>
